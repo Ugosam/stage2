@@ -1,0 +1,95 @@
+:root {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-size: 10px;
+}
+
+.hompageContainer {
+    /* background-image: url("src/assets/images/Poster.jpeg"); */
+    background-size: cover;
+    background-position: center center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.thumbnail-container {
+    position: relative;
+}
+
+.tv-text,
+.heart-div {
+    position: absolute;
+    top: 2%;
+    z-index: 1;
+}
+
+.heart-div {
+    right: 2%;
+}
+
+.tv-text {
+    background-color: rgba(224, 229, 235, 0.4);
+    border-radius: 45px;
+    left: 2%;
+    height: auto;
+}
+
+.text {
+    color: #9CA3AF;
+    font-weight: 400;
+}
+
+.heart {
+    margin-top: -15px;
+    margin-left: -3px;
+}
+
+.featuredMovieText2 {
+    color: #BE123C;
+}
+
+.search {
+    background-color: rgba(252, 253, 253, 0.2);
+    border: 2px solid #fff;
+}
+
+.form-control::placeholder {
+    color: white !important;
+}
+
+.singleMovieContainer {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.left-side {
+    border-radius: 0 50px 50px 0;
+    height: 100vh;
+    position: fixed;
+    bottom: 0%;
+    left: 0;
+}
+
+.right-side {
+    position: absolute;
+    right: 0;
+}
+
+.sidemenu {
+    color: rgba(102, 102, 102, 1)
+}
+
+.sidemenu:hover,
+.sidemenu:active,
+.sidemenu:focus {
+    border-right: 2px rgba(190, 18, 60, 1) solid;
+    background-color: rgba(190, 18, 60, 0.1);
+    color: rgba(190, 18, 60, 1);
+}
